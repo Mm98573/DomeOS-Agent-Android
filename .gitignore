@@ -1,0 +1,57 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/build/
+!*/src/main/**/build.gradle.kts
+!*/src/main/**/build.gradle
+
+# Local configuration
+local.properties
+*.local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle Wrapper JAR (should be downloaded, not committed)
+gradle/wrapper/gradle-wrapper.jar
+
+# Keystore
+*.jks
+*.keystore
+
+# APK outputs
+*.apk
+*.aab
+
+# Test reports
+**/build/reports/
+**/build/test-results/
+
+# Lint reports
+**/build/reports/lint-results*.html
+
+# Coverage
+**/build/reports/jacoco/
+
+# Kotlin
+*.kt~
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.temp
