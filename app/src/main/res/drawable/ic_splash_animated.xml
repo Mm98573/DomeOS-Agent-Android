@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="108dp"
+            android:height="108dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108">
+            <path
+                android:name="outerRing"
+                android:fillColor="#6750A4"
+                android:pathData="M54,14
+                    C31.9,14 14,31.9 14,54
+                    C14,76.1 31.9,94 54,94
+                    C76.1,94 94,76.1 94,54
+                    C94,31.9 76.1,14 54,14
+                    Z" />
+            <path
+                android:name="innerRing"
+                android:fillColor="#FFFFFF"
+                android:pathData="M54,28
+                    C39.6,28 28,39.6 28,54
+                    C28,68.4 39.6,80 54,80
+                    C68.4,80 80,68.4 80,54
+                    C80,39.6 68.4,28 54,28
+                    Z" />
+            <path
+                android:name="coreRing"
+                android:fillColor="#6750A4"
+                android:pathData="M54,36
+                    C44.1,36 36,44.1 36,54
+                    C36,63.9 44.1,72 54,72
+                    C63.9,72 72,63.9 72,54
+                    C72,44.1 63.9,36 54,36
+                    Z" />
+            <circle
+                android:name="centerPulse"
+                android:cx="54"
+                android:cy="54"
+                android:r="6"
+                android:fillColor="#03DAC6" />
+        </vector>
+    </aapt:attr>
+    <target android:name="outerRing">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="800"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="innerRing">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="800"
+                android:startOffset="100"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="coreRing">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="800"
+                android:startOffset="200"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="centerPulse">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="400"
+                    android:startOffset="400"
+                    android:propertyName="scaleX"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="400"
+                    android:startOffset="400"
+                    android:propertyName="scaleY"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

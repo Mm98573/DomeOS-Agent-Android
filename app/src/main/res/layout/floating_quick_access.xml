@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- 主悬浮按钮 -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/iv_floating_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@color/md_theme_light_primary"
+        android:contentDescription="@string/quick_access_title"
+        android:elevation="8dp"
+        android:scaleType="centerInside"
+        android:padding="12dp" />
+
+    <!-- 关闭按钮（长按显示） -->
+    <ImageView
+        android:id="@+id/iv_floating_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="4dp"
+        android:src="@drawable/ic_close"
+        android:background="@drawable/bg_floating_close"
+        android:visibility="gone"
+        android:contentDescription="关闭悬浮窗"
+        android:padding="4dp" />
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<resources>
+    <!-- Spacing (Material 3 4dp grid) -->
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="spacing_xxxl">48dp</dimen>
+
+    <!-- Component Sizing -->
+    <dimen name="icon_size_xs">16dp</dimen>
+    <dimen name="icon_size_sm">20dp</dimen>
+    <dimen name="icon_size_md">24dp</dimen>
+    <dimen name="icon_size_lg">28dp</dimen>
+    <dimen name="icon_size_xl">32dp</dimen>
+    <dimen name="icon_size_xxl">48dp</dimen>
+
+    <dimen name="button_height_sm">32dp</dimen>
+    <dimen name="button_height_md">40dp</dimen>
+    <dimen name="button_height_lg">48dp</dimen>
+    <dimen name="button_height_xl">56dp</dimen>
+
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="chip_height">36dp</dimen>
+    <dimen name="chip_height_sm">28dp</dimen>
+
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_raised">8dp</dimen>
+
+    <dimen name="bottom_sheet_peek_height">64dp</dimen>
+
+    <!-- Typography -->
+    <dimen name="text_size_display_large">57sp</dimen>
+    <dimen name="text_size_display_medium">45sp</dimen>
+    <dimen name="text_size_display_small">36sp</dimen>
+    <dimen name="text_size_headline_large">32sp</dimen>
+    <dimen name="text_size_headline_medium">28sp</dimen>
+    <dimen name="text_size_headline_small">24sp</dimen>
+    <dimen name="text_size_title_large">22sp</dimen>
+    <dimen name="text_size_title_medium">16sp</dimen>
+    <dimen name="text_size_title_small">14sp</dimen>
+    <dimen name="text_size_body_large">16sp</dimen>
+    <dimen name="text_size_body_medium">14sp</dimen>
+    <dimen name="text_size_body_small">12sp</dimen>
+    <dimen name="text_size_label_large">14sp</dimen>
+    <dimen name="text_size_label_medium">12sp</dimen>
+    <dimen name="text_size_label_small">11sp</dimen>
+
+    <!-- Corner Radius -->
+    <dimen name="corner_radius_none">0dp</dimen>
+    <dimen name="corner_radius_xs">4dp</dimen>
+    <dimen name="corner_radius_sm">8dp</dimen>
+    <dimen name="corner_radius_md">12dp</dimen>
+    <dimen name="corner_radius_lg">16dp</dimen>
+    <dimen name="corner_radius_xl">24dp</dimen>
+    <dimen name="corner_radius_xxl">32dp</dimen>
+    <dimen name="corner_radius_full">1000dp</dimen>
+
+    <!-- Message Layout -->
+    <dimen name="message_max_width">75%</dimen>
+    <dimen name="message_avatar_size">36dp</dimen>
+    <dimen name="message_spacing">12dp</dimen>
+    <dimen name="message_bubble_padding_horizontal">16dp</dimen>
+    <dimen name="message_bubble_padding_vertical">10dp</dimen>
+
+    <!-- Input Area -->
+    <dimen name="input_min_height">48dp</dimen>
+    <dimen name="input_max_height">160dp</dimen>
+    <dimen name="input_padding_horizontal">16dp</dimen>
+    <dimen name="input_padding_vertical">12dp</dimen>
+
+    <!-- Sidebar -->
+    <dimen name="sidebar_width">320dp</dimen>
+    <dimen name="sidebar_width_compact">72dp</dimen>
+
+    <!-- Animation -->
+    <integer name="anim_duration_short">150</integer>
+    <integer name="anim_duration_medium">250</integer>
+    <integer name="anim_duration_long">350</integer>
+    <integer name="anim_duration_extra_long">500</integer>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="new_chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_new_chat"
+        android:shortcutShortLabel="@string/new_chat"
+        android:shortcutLongLabel="@string/start_new_conversation">
+        <intent
+            android:action="com.domeos.agent.NEW_CHAT"
+            android:targetPackage="com.domeos.agent"
+            android:targetClass="com.domeos.agent.ui.main.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="quick_access"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_quick_access"
+        android:shortcutShortLabel="@string/quick_access_title"
+        android:shortcutLongLabel="@string/quick_access_summary">
+        <intent
+            android:action="com.domeos.agent.QUICK_ACCESS"
+            android:targetPackage="com.domeos.agent"
+            android:targetClass="com.domeos.agent.ui.main.MainActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/settings_title"
+        android:shortcutLongLabel="@string/settings_title">
+        <intent
+            android:action="com.domeos.agent.SETTINGS"
+            android:targetPackage="com.domeos.agent"
+            android:targetClass="com.domeos.agent.ui.settings.SettingsActivity" />
+    </shortcut>
+</shortcuts>

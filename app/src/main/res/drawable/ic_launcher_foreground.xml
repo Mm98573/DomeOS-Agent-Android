@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- DomeOS Logo: Stylized brain/orb with circuit patterns -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M54,14
+            C31.9,14 14,31.9 14,54
+            C14,76.1 31.9,94 54,94
+            C76.1,94 94,76.1 94,54
+            C94,31.9 76.1,14 54,14
+            Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28
+            C39.6,28 28,39.6 28,54
+            C28,68.4 39.6,80 54,80
+            C68.4,80 80,68.4 80,54
+            C80,39.6 68.4,28 54,28
+            Z" />
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M54,36
+            C44.1,36 36,44.1 36,54
+            C36,63.9 44.1,72 54,72
+            C63.9,72 72,63.9 72,54
+            C72,44.1 63.9,36 54,36
+            Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42
+            C47.4,42 42,47.4 42,54
+            C42,60.6 47.4,66 54,66
+            C60.6,66 66,60.6 66,54
+            C66,47.4 60.6,42 54,42
+            Z" />
+    <!-- Circuit nodes -->
+    <circle
+        android:cx="36"
+        android:cy="36"
+        android:r="3"
+        android:fillColor="#03DAC6" />
+    <circle
+        android:cx="72"
+        android:cy="36"
+        android:r="3"
+        android:fillColor="#03DAC6" />
+    <circle
+        android:cx="36"
+        android:cy="72"
+        android:r="3"
+        android:fillColor="#03DAC6" />
+    <circle
+        android:cx="72"
+        android:cy="72"
+        android:r="3"
+        android:fillColor="#03DAC6" />
+    <!-- Center pulse -->
+    <circle
+        android:cx="54"
+        android:cy="54"
+        android:r="6"
+        android:fillColor="#03DAC6" />
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Override only custom colors for dark theme, Material 3 colors come from themes.xml -->
+    <color name="domeos_user_bubble">@color/md_theme_dark_primaryContainer</color>
+    <color name="domeos_assistant_bubble">@color/md_theme_dark_surfaceContainerHigh</color>
+    <color name="domeos_tool_bubble">@color/md_theme_dark_secondaryContainer</color>
+    <color name="domeos_system_bubble">@color/domeos_system_bubble_dark</color>
+    <color name="domeos_code_background">@color/domeos_code_background_dark</color>
+    <color name="domeos_code_text">@color/domeos_code_text_dark</color>
+    <color name="domeos_divider">@color/domeos_divider_dark</color>
+    <color name="domeos_selection">@color/domeos_selection_dark</color>
+</resources>
