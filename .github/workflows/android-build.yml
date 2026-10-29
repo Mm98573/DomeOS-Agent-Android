@@ -103,11 +103,8 @@ jobs:
           cache: gradle
       
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          api-level: 35
-          build-tools-version: 35.0.0
-          cmdline-tools-version: latest
+        run: |
+          echo "y" | sudo /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --install "platforms;android-35" "build-tools;35.0.0" "platform-tools" 
       
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -156,11 +153,8 @@ jobs:
           cache: gradle
       
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          api-level: 35
-          build-tools-version: 35.0.0
-          cmdline-tools-version: latest
+        run: |
+          echo "y" | sudo /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --install "platforms;android-35" "build-tools;35.0.0" "platform-tools" 
       
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
